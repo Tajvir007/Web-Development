@@ -1,0 +1,29 @@
+h2{
+    background-color: #1478f1;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+#external_css{
+    background-color: #bbd0d6;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.2rem;
+    color: #333;
+    padding: 10px;
+    text-align: justify;
+    margin: 20px;
+}
+
+.external_css{
+    background-color: #950a79;
+    font-family: 'Arial', sans-serif;
+    font-size: 1.6rem;
+    color: #333;
+    text-decoration: underline;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
