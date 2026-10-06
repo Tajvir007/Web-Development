@@ -1,0 +1,28 @@
+body{
+    margin: 20px;
+}
+ nav{
+    background-color: #378494;
+    height: 50px;
+    text-align: center;
+    font-size: large;
+ }
+
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+    margin-top: 5px;
+    padding: 10px;
+
+}
+
+nav li:hover{
+    border: #f92121 solid 1px;
+    border-radius: 10px;
+    background-color: #f92121;
+}
+
+nav li a{
+    text-decoration: none;
+}
