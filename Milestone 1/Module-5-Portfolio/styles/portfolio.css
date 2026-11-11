@@ -30,6 +30,10 @@
     cursor: pointer;
 }
 
+.text-center{
+    text-align: center;
+}
+
 /* main style */
 
 header{
@@ -150,4 +154,146 @@ nav ul a{
     font-weight: bold;
     color: #474747;
 }
+
+
+
+
+/* Skill Section */
+
+#skill{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+#skill .skill-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+.skill-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skill-heading h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#skill .skill-container h2{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+#skill .skill-container p{
+    font-size: 18px;
+    font-weight: regular;
+    color: #757575;
+    margin-bottom: 50px; 
+    width: 827px;
+    text-align: center;
+}
+
+#skill .skill-card{
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-top: 50px;
+}
+
+
+.skill-card .card{
+    max-width: 267px;
+    padding: 30px;
+    /* border: 1px solid red; */
+    box-shadow: 0 6px 50px 0 #00000016;
+}
+
+.card img{
+    width: 44px;
+    margin-bottom: 30px;
+}
+
+.card h4{
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 100;
+    color: #757575;
+}
+
+
+/* Resume Section */
+#resume{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    margin-top: 130px;
+}
+
+#resume h2{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 113px;
+}
+
+
+.resume-container{
+    display: flex;
+    gap: 71px;
+    margin-bottom: 50px;
+}
+
+.section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.education-card{
+    max-width: 511px;
+    height: 175px;
+    margin-top: 30px;
+}
+
+.title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.details{
+    font-size: 20px;
+    font-weight: 500px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+
+.education p{
+    font-size: 16px;
+    font-weight: 100px;
+     color: #757575;
+    margin-bottom: 30px;
+}
+
+.experience p{
+    font-size: 16px;
+    font-weight: 100px;
+     color: #757575;
+    margin-bottom: 30px;
+}
+
+
 
