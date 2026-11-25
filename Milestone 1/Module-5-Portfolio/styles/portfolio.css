@@ -296,4 +296,62 @@ nav ul a{
 }
 
 
+/* Footer Section */
+#footer{
+    margin-top: 130px;
+    background-color: #FFF8F3;
+    padding: 130px 0;
+}
 
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+    display: flex;
+    gap: 116px;
+    justify-content: first baseline;
+    
+}
+
+
+.footer-container .social{
+    max-width: 562px;
+}
+
+.footer-container .social h2{
+    font-size: 35px;
+    color: #181818;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-container .social p{
+    font-size: 16px;
+    color: #474747;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.footer-container .icons a{
+ margin-right: 24px;
+}
+
+
+.footer-container form input[type='text']{
+    width: 461px;
+    padding: 18px 349px 18px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
+
+.footer-container form textarea{
+    width: 461px;
+    height: 180px;
+    padding: 18px 365px 134px 30px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+}
